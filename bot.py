@@ -21,8 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""SALAM,
-Mən qruplarınızdakı istifadəçileri Tağ etmək üçün köməkçi Botam.Məni qrupunuza əlavə edərək insanları rahatlıqla çağıra bilərsiz
+"""SALAM,Mən qruplarınızdakı istifadəçileri Tağ etmək üçün köməkçi Botam.Məni qrupunuza əlavə edərək insanları rahatlıqla çağıra bilərsiz
  
   /help **kömək üçün**
 """,
@@ -88,7 +87,7 @@ async def mentionall(event):
     if msg == None:
         return await event.respond("__I can't mention members for older messages! (messages which are sent before I'm added to group)__")
   else:
-    return await event.respond("__Tağ prosesini başlatmaq üçün səbəb yazmağınız xaiş olunur!__")
+    return await event.respond("__Tağ prosesini başlatmaq üçün bir mesaj yazmağınız xaiş olunur! Nümunə: @tag salam__")
   
   spam_chats.append(chat_id)
   usrnum = 0
