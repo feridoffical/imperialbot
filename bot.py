@@ -23,13 +23,12 @@ async def start(event):
   await event.reply(
 """SALAM,
 Men qruplarda herkesi çağırmaq üçün qurulmuşam! 
-*SALAM ,*
 ┏━━━━━━━━━━━━━━━━
  ₪ *MENİ QRUPUNA ELAVE ET* `
 ┣ ₪ TAĞ BOTU
 ┗━━━━━━━━━━━━━━━━━
  
-  ʜɪᴛ /help **kömek üçün**
+  /help **kömek üçün**
  [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
 """,
     link_preview=False,
