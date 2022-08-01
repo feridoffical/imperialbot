@@ -29,22 +29,22 @@ Men qruplarınızdakı istifadeçileri Tag etmek üçün kömekçi Botam.
     link_preview=False,
     buttons=(
        [
-        Button.url(' kanal', 'https://t.me/imperialsupportt'),
-        Button.url('creater', 'https://t.me/Ferid_mov')
+        Button.url(' Kanal', 'https://t.me/imperialsupportt'),
+        Button.url('Sahib', 'https://t.me/Ferid_mov')
     ],
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "Tag prosesini baslatmaq ucun:@tag,dayandirmaq ucun ise /cancel. yazmaginiz kifayetdir. Numune: @tag salam"
+  helptext = "Tag prosesini baslatmaq ucun:@tag,dayandirmaq ucun ise @cancel. yazmaginiz kifayetdir. Numune: @tag salam"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url(' kanal', 'https://t.me/imperialsupportt'),
-        Button.url('sahib', 'https://t.me/Ferid_mov')
+        Button.url(' Kanal', 'https://t.me/imperialsupportt'),
+        Button.url('Sahib', 'https://t.me/Ferid_mov')
       ]
     )
   )
@@ -112,7 +112,7 @@ async def mentionall(event):
   except:
     pass
 
-@client.on(events.NewMessage(pattern="^/cancel$"))
+@client.on(events.NewMessage(pattern="^@cancel$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
     return await event.respond('__There is no proccess on going...__')
