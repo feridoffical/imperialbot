@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""SALAM,Mən qruplarınızdakı istifadəçileri Tağ etmək üçün köməkçi Botam.Məni qrupunuza əlavə edərək insanları rahatlıqla çağıra bilərsiz
+"""Salam,Mən qruplarınızdakı istifadəçileri Tağ etmək üçün köməkçi Botam.Məni qrupunuza əlavə edərək insanları rahatlıqla çağıra bilərsiz
  
   /help **kömək üçün**
 """,
