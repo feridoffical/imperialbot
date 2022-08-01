@@ -37,14 +37,14 @@ Men qruplarınızdakı istifadeçileri Tag etmek üçün kömekçi Botam.
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "COMMANDS:@tag,/cancel. excample @all hi add me your groups iam best tagger pro bot"
+  helptext = "Tag prosesini baslatmaq ucun:@tag,dayandirmaq ucun ise /cancel. yazmaginiz kifayetdir. Numune: @tag salam"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url(' kanal', 'https://t.me/imperialsupportt'),
+        Button.url('creater', 'https://t.me/Ferid_mov')
       ]
     )
   )
