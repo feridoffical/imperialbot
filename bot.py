@@ -23,10 +23,6 @@ async def start(event):
   await event.reply(
 """SALAM,
 Men qruplarınızdakı istifadeçileri Tag etmek üçün kömekçi Botam.
-┏━━━━━━━━━━━━━━━━
- ₪ *MENİ QRUPUNA ELAVE ET* `
-┣ ₪ TAĞ BOTU
-┗━━━━━━━━━━━━━━━━━
  
   /help **kömek üçün**
 """,
