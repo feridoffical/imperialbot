@@ -29,7 +29,7 @@ async def start(event):
     buttons=(
        [
         Button.url(' Kanal', 'https://t.me/imperialsupportt'),
-        Button.url('Sahib', 'https://t.me/ferid_mov')
+        Button.url('Sahib', 'https://t.me/ferid_mov'),
         Button.url(' Qrup', 'https://t.me/imperialmafiaa')
 ],
     )
@@ -44,7 +44,7 @@ async def help(event):
     buttons=(
       [
         Button.url(' Kanal', 'https://t.me/imperialsupportt'),
-        Button.url('Sahib', 'https://t.me/ferid_mov')
+        Button.url('Sahib', 'https://t.me/ferid_mov'),
         Button.url(' Qrup', 'https://t.me/imperialmafiaa')
       ]
     )
@@ -54,7 +54,7 @@ async def help(event):
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("__This command can be use in groups and channels!__")
+    return await event.respond("__Bu əmr yalnız qruplarda istifadə oluna bilər!__")
   
   is_admin = False
   try:
