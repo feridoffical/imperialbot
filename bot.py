@@ -25,8 +25,8 @@ async def start(event):
 ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ TAGALL ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
 *SALAM ,*
 ┏━━━━━━━━━━━━━━━━
-┣ ₪ *ADD ME YOUR GROUP* `
-┣ ₪ IAM POWER FULL TAGGER BOT
+┣ ₪ *MENİ QRUPUNA ELAVE ET* `
+┣ ₪ TAĞ BOTU
 ┗━━━━━━━━━━━━━━━━━
  
   ʜɪᴛ /help **FOR MORE**
