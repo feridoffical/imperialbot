@@ -44,12 +44,12 @@ async def help(event):
     buttons=(
       [
         Button.url(' kanal', 'https://t.me/imperialsupportt'),
-        Button.url('creater', 'https://t.me/Ferid_mov')
+        Button.url('sahib', 'https://t.me/Ferid_mov')
       ]
     )
   )
   
-@client.on(events.NewMessage(pattern="^@all ?(.*)"))
+@client.on(events.NewMessage(pattern="^@tag ?(.*)"))
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
