@@ -22,9 +22,9 @@ spam_chats = []
 async def start(event):
   await event.reply(
 """SALAM,
-Men qruplarınızdakı istifadeçileri Tag etmek üçün kömekçi Botam.
+Mən qruplarınızdakı istifadəçileri Tağ etmək üçün köməkçi Botam.Məni qrupunuza əlavə edərək insanları rahatlıqla çağıra bilərsiz
  
-  /help **kömek üçün**
+  /help **kömək üçün**
 """,
     link_preview=False,
     buttons=(
@@ -88,7 +88,7 @@ async def mentionall(event):
     if msg == None:
         return await event.respond("__I can't mention members for older messages! (messages which are sent before I'm added to group)__")
   else:
-    return await event.respond("__Reply to a message or give me some text to mention others!__")
+    return await event.respond("__Tağ prosesini başlatmaq üçün səbəb yazmağınız xaiş olunur!__")
   
   spam_chats.append(chat_id)
   usrnum = 0
