@@ -37,7 +37,7 @@ Mən qruplarınızdakı istifadəçileri Tağ etmək üçün köməkçi Botam.M�
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "Tag prosesini baslatmaq ucun:@tag,dayandirmaq ucun ise @cancel. yazmaginiz kifayetdir. Numune: @tag salam"
+  helptext = "Tağ prosesini başlatmaq üçün:@tag,dayandırmaq üçün isə @cancel. yazmağınız kifayətdir. Nümunə @tag salam"
   await event.reply(
     helptext,
     link_preview=False,
