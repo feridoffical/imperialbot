@@ -45,6 +45,7 @@ async def help(event):
       [
         Button.url(' Kanal', 'https://t.me/imperialsupportt'),
         Button.url('Sahib', 'https://t.me/ferid_mov')
+        Button.url(' Qrup', 'https://t.me/imperialmafiaa')
       ]
     )
   )
