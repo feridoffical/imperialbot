@@ -21,11 +21,11 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""ʜᴏɪ,
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ TAGALL ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
+"""SALAM,
+Men qruplarda herkesi çağırmaq üçün qurulmuşam! 
 *SALAM ,*
 ┏━━━━━━━━━━━━━━━━
-┣ ₪ *MENİ QRUPUNA ELAVE ET* `
+ ₪ *MENİ QRUPUNA ELAVE ET* `
 ┣ ₪ TAĞ BOTU
 ┗━━━━━━━━━━━━━━━━━
  
