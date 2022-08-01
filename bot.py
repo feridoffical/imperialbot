@@ -30,7 +30,7 @@ Men qruplarınızdakı istifadeçileri Tag etmek üçün kömekçi Botam.
     buttons=(
        [
         Button.url(' Kanal', 'https://t.me/imperialsupportt'),
-        Button.url('Sahib', 'https://t.me/Ferid_mov')
+        Button.url('Sahib', 'https://t.me/ferid_mov')
     ],
     )
   )
@@ -44,7 +44,7 @@ async def help(event):
     buttons=(
       [
         Button.url(' Kanal', 'https://t.me/imperialsupportt'),
-        Button.url('Sahib', 'https://t.me/Ferid_mov')
+        Button.url('Sahib', 'https://t.me/ferid_mov')
       ]
     )
   )
@@ -121,7 +121,7 @@ async def cancel_spam(event):
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('__Stopped.__')
+    return await event.respond('__Tağ etmək prosesi dayandırıldı.__')
 
 print(">> BOT STARTED <<")
 client.run_until_disconnected()
