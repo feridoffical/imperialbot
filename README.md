@@ -1,5 +1,5 @@
-# Tagallbot
-telegram telegramtagallbot
+# TagİmperialBot
+telegram telegramtagimperialbot
 
 
 ## Dᴇᴘᴏʏ Tᴏ Hᴇʀᴏᴋᴜ
