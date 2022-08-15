@@ -28,9 +28,8 @@ async def start(event):
     link_preview=False,
     buttons=(
        [
-        Button.url(' Kanal', 'https://t.me/imperialsupportt'),
-        Button.url('Sahib', 'https://t.me/ferid_mov'),
-        Button.url(' Qrup', 'https://t.me/imperialmafiaa')
+        Button.url(' Kanal', 'https://t.me/MURIKBLOG'),
+        Button.url('Sahib', 'https://t.me/birdevrinsonu'),
 ],
     )
   )
@@ -43,9 +42,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url(' Kanal', 'https://t.me/imperialsupportt'),
-        Button.url('Sahib', 'https://t.me/ferid_mov'),
-        Button.url(' Qrup', 'https://t.me/imperialmafiaa')
+        Button.url(' Kanal', 'https://t.me/MURIKBLOG'),
+        Button.url('Sahib', 'https://t.me/birdevrinsonu'),
       ]
     )
   )
