@@ -28,8 +28,8 @@ async def start(event):
     link_preview=False,
     buttons=(
        [
-        Button.url(' Kanal', 'https://t.me/MURIKBLOG'),
-        Button.url('Sahib', 'https://t.me/birdevrinsonu'),
+        Button.url(' Kanal', 'https://t.me/efubotlar'),
+        Button.url('Sahib', 'https://t.me/feridoffical'),
 ],
     )
   )
@@ -42,8 +42,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url(' Kanal', 'https://t.me/MURIKBLOG'),
-        Button.url('Sahib', 'https://t.me/birdevrinsonu'),
+        Button.url(' Kanal', 'https://t.me/efubotlar'),
+        Button.url('Sahib', 'https://t.me/feridoffical'),
       ]
     )
   )
