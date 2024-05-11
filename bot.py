@@ -42,7 +42,9 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url(' Kanal', 'https://t.me/efubotlar'),
+        [[
+        InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")
+          Button.url(' Kanal', 'https://t.me/efubotlar'),
         Button.url('Sahib', 'https://t.me/feridoffical'),
       ]
     )
