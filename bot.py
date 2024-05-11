@@ -42,15 +42,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-       START_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('➕ Məni Qrupa Əlavə Et ➕', url=f"https://t.me/{Config.BOT_USERNAME}?startgroup=true")
-        ],[
-        InlineKeyboardButton('🇦🇿 Əmrlər', callback_data='help'),
-        ],[
-        InlineKeyboardButton('Sahibim🧑‍💻',  url=f"https://t.me/{Config.OWNER_NAME}"),
-        InlineKeyboardButton("🎵 Playlist", url=f"https://t.me/{Config.PLAYLIST_NAME}"),
-        ]] 
+       Button.url(' Kanal', 'https://t.me/efubotlar'),
+        Button.url('Sahib', 'https://t.me/feridoffical'),
         
       ]
     )
