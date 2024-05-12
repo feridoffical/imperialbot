@@ -25,12 +25,12 @@ async def start(event):
  
   /help **kömək üçün**
 """,
-    link_preview=False,
+   link_preview=False,
     buttons=(
        [
         Button.url(' Kanal', 'https://t.me/efubotlar'),
-        Button.url('Sahib', 'https://t.me/feridoffical'),
-],
+        Button.url('Sahib', 'https://t.me/feridoffical')
+    ],
     )
   )
 
@@ -43,7 +43,7 @@ async def help(event):
     buttons=(
       [
        Button.url(' Kanal', 'https://t.me/efubotlar'),
-       Button.url('Sahib', 'https://t.me/feridoffical'),
+       Button.url('Sahib', 'https://t.me/feridoffical')
     )
   )
   
