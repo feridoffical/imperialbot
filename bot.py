@@ -40,8 +40,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/efubotlar'),
-        Button.url('creater', 'https://t.me/Feridoffical')
+        Button.url(' Kanalımız', 'https://t.me/efubotlar'),
+        Button.url('Sahib', 'https://t.me/Feridoffical')
       ]
     )
   )
