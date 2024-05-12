@@ -30,7 +30,6 @@ async def start(event):
        [
         Button.url(' Kanal', 'https://t.me/efubotlar'),
         Button.url('Sahib', 'https://t.me/feridoffical'),
-        Button.url('Məni Qrupa Əlavə Et', 'https://t.me/Efutagbot?startgroup=true'),
 ],
     )
   )
@@ -45,8 +44,6 @@ async def help(event):
       [
        Button.url(' Kanal', 'https://t.me/efubotlar'),
         Button.url('Sahib', 'https://t.me/feridoffical'),
-         Button.url('Qrupa Əlavə Et', 'https://t.me/Efutagbot?startgroup=true').
-      ]
     )
   )
   
