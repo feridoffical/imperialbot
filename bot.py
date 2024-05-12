@@ -43,7 +43,7 @@ async def help(event):
     buttons=(
       [
        Button.url(' Kanal', 'https://t.me/efubotlar'),
-        Button.url('Sahib', 'https://t.me/feridoffical'),
+       Button.url('Sahib', 'https://t.me/feridoffical'),
     )
   )
   
