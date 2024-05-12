@@ -22,13 +22,7 @@ spam_chats = []
 async def start(event):
   await event.reply(
 """Salam,mən qruplarınızdakı istifadəçiləri tağ etmək üçün köməkçi botam.Məni qrupunuza əlavə edərək insanları rahatlıqla çağıra bilərsiz
-
-┏━━━━━━━━━━━━━━━━
-┣ ₪ *ADD ME YOUR GROUP* `
-┣ ₪ IAM POWER FULL TAGGER BOT
-┗━━━━━━━━━━━━━━━━━
- 
-  ʜɪᴛ /help **FOR MORE**
+  /help **kömək üçün**
  [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
 """,
     link_preview=False,
