@@ -21,9 +21,8 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""ʜᴏɪ,
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ TAGALL ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
-*𝐇𝐄𝐘! ,*
+"""Salam,mən qruplarınızdakı istifadəçiləri tağ etmək üçün köməkçi botam.Məni qrupunuza əlavə edərək insanları rahatlıqla çağıra bilərsiz
+
 ┏━━━━━━━━━━━━━━━━
 ┣ ₪ *ADD ME YOUR GROUP* `
 ┣ ₪ IAM POWER FULL TAGGER BOT
