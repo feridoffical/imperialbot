@@ -27,21 +27,21 @@ async def start(event):
     buttons=(
        [
         Button.url(' Kanalımız', 'https://t.me/efubotlar'),
-        Button.url('Sahib', 'https://t.me/feridofficaı')
+        Button.url('Sahib', 'https://t.me/feridoffical')
     ],
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "COMMANDS:@all,/cancel. excample @all hi add me your groups iam best tagger pro bot"
+  helptext = "Tağ prosesini başlatmaq üçün:@tag,dayandırmaq üçün isə @cancel. yazmağınız kifayətdir. Nümunə @tag salam"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url(' support', 'https://t.me/efubotlar'),
+        Button.url('creater', 'https://t.me/Feridoffical')
       ]
     )
   )
@@ -50,7 +50,7 @@ async def help(event):
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("__This command can be use in groups and channels!__")
+    return await event.respond("__Bu əmr yalnız qruplarda istifadə oluna bilər!__")
   
   is_admin = False
   try:
@@ -72,7 +72,7 @@ async def mentionall(event):
     ):
       is_admin = True
   if not is_admin:
-    return await event.respond("__Only admins can mention all!__")
+    return await event.respond("__Bu əmri yalnız adminlər işlədə bilər__")
   
   if event.pattern_match.group(1) and event.is_reply:
     return await event.respond("__Give me one argument!__")
@@ -85,7 +85,7 @@ async def mentionall(event):
     if msg == None:
         return await event.respond("__I can't mention members for older messages! (messages which are sent before I'm added to group)__")
   else:
-    return await event.respond("__Reply to a message or give me some text to mention others!__")
+    return await event.respond("__Tağ prosesini başlatmaq üçün bir mesaj yazmağınız xaiş olunur! Nümunə: @tag salam!__")
   
   spam_chats.append(chat_id)
   usrnum = 0
@@ -112,13 +112,13 @@ async def mentionall(event):
 @client.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
-    return await event.respond('__There is no proccess on going...__')
+    return await event.respond('__Ləğv ediləcək heç bir proses qrupda getmir...__')
   else:
     try:
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('__Stopped.__')
+    return await event.respond('__Tağ etmək prosesi dayandırıldı.__')
 
 print(">> BOT STARTED <<")
 client.run_until_disconnected()
