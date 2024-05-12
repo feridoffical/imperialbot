@@ -44,7 +44,7 @@ async def help(event):
       [
        Button.url(' Kanal', 'https://t.me/efubotlar'),
         Button.url('Sahib', 'https://t.me/feridoffical'),
-        
+         Button.url('Qrupa Əlavə Et', 'https://t.me/{Config.BOT_USERNAME}?startgroup=true")'),
       ]
     )
   )
