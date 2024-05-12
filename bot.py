@@ -34,7 +34,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "Tağ prosesini başlatmaq üçün:/tag, dayandırmaq üçün isə /cancel. yazmağınız kifayətdir. Nümunə @tag salam"
+  helptext = "Tağ prosesini başlatmaq üçün:/tag, dayandırmaq üçün isə /cancel. yazmağınız kifayətdir. Nümunə /tag salam"
   await event.reply(
     helptext,
     link_preview=False,
